@@ -24,12 +24,12 @@ public class Hook extends BaseUtil{
 
         System.out.println("Opening the browser : Firefox");
 
-        /*System.setProperty("webdriver.firefox.marionette", "D:\\Libs\\geckodriver.exe");
+        /*System.setProperty("webdriver.firefox.marionette", "C:\\Windows\\geckodriver.exe");
         base.Driver = new FirefoxDriver();*/
 
 
         //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\Windows\\chromedriver.exe");
         base.Driver = new ChromeDriver();
     }
 
